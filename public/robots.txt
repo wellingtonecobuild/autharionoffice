@@ -1,0 +1,79 @@
+# Wellington EcoBuild - Security Protected Files
+
+# Prevent crawling of sensitive routes
+User-agent: *
+Allow: /
+Allow: /market-insights
+Allow: /market-insights/*
+Allow: /category
+Allow: /category/*
+Allow: /locations
+Allow: /locations/*
+Allow: /business
+Allow: /business/*
+Allow: /how-it-works
+Allow: /pricing
+Allow: /about
+Allow: /contact
+Allow: /jobs
+Allow: /jobs/*
+Allow: /resources
+Allow: /events
+Allow: /community
+Allow: /suburbs
+Allow: /suburbs/*
+
+# Block admin and sensitive areas
+Disallow: /admin
+Disallow: /admin/*
+Disallow: /dashboard
+Disallow: /dashboard/*
+Disallow: /profile
+Disallow: /verification
+Disallow: /list-business
+Disallow: /auth
+Disallow: /reset-password
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /*?*email=
+Disallow: /*?*token=
+
+# Block common attack vectors
+Disallow: /wp-admin
+Disallow: /wp-login
+Disallow: /xmlrpc.php
+Disallow: /.env
+Disallow: /config
+Disallow: /.git
+
+# Allow search engine bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+# Block aggressive scrapers
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Sitemap
+Sitemap: https://wellingtonecobuild.nz/sitemap.xml
+
+# Crawl delay for other bots
+Crawl-delay: 2

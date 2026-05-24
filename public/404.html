@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wellington EcoBuild</title>
+    <meta name="robots" content="noindex" />
+    <script>
+      // SPA fallback for static hosting: redirect all unknown routes to / with the original path preserved
+      (function () {
+        var path = window.location.pathname + window.location.search + window.location.hash;
+        // If we're not already at root, stash the path and go home
+        if (path !== '/' && path !== '/index.html') {
+          sessionStorage.setItem('__spa_redirect__', path);
+          window.location.replace('/');
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <noscript>This site requires JavaScript.</noscript>
+  </body>
+</html>

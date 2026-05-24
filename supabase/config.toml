@@ -1,0 +1,193 @@
+project_id = "duumxykzcliujgyrmzvn"
+
+[functions.get-mapbox-token]
+verify_jwt = false
+
+[functions.sync-stripe-revenue]
+verify_jwt = true
+
+[functions.create-job-payment]
+verify_jwt = true
+
+[functions.create-business-checkout]
+verify_jwt = true
+
+[functions.create-checkout]
+verify_jwt = true
+
+[functions.check-subscription]
+verify_jwt = true
+
+[functions.customer-portal]
+verify_jwt = true
+
+[functions.manage-subscription]
+verify_jwt = true
+
+[functions.update-stripe-prices]
+verify_jwt = true
+
+[functions.stripe-webhook]
+verify_jwt = false
+
+[functions.send-email]
+verify_jwt = false
+
+[functions.send-branded-email]
+verify_jwt = false
+
+[functions.send-password-reset]
+verify_jwt = false
+
+[functions.send-password-changed]
+verify_jwt = false
+
+[functions.send-contact-confirmation]
+verify_jwt = false
+
+[functions.notify-admin]
+verify_jwt = false
+
+[functions.notify-lead]
+verify_jwt = false
+
+[functions.notify-business-status]
+verify_jwt = true
+
+[functions.notify-review]
+verify_jwt = true
+
+[functions.notify-document-status]
+verify_jwt = true
+
+[functions.check-expiring-documents]
+verify_jwt = false
+
+[functions.fetch-adsense-metrics]
+verify_jwt = true
+
+[functions.track-ab-impression]
+verify_jwt = false
+
+[functions.check-ab-significance]
+verify_jwt = false
+
+[functions.notify-referral-status]
+verify_jwt = true
+
+[functions.manage-held-payment]
+verify_jwt = true
+
+[functions.notify-payment-status]
+verify_jwt = false
+
+[functions.get-billing-history]
+verify_jwt = true
+
+[functions.send-dunning-email]
+verify_jwt = false
+
+[functions.check-subscription-renewals]
+verify_jwt = false
+
+[functions.validate-url]
+verify_jwt = false
+
+[functions.get-stripe-stats]
+verify_jwt = true
+
+[functions.fetch-rss-news]
+verify_jwt = false
+
+[functions.run-admin-assistant]
+verify_jwt = true
+
+[functions.execute-ai-fix]
+verify_jwt = true
+
+[functions.notify-subscription-change]
+verify_jwt = false
+
+[functions.upgrade-subscription]
+verify_jwt = true
+
+[functions.admin-password-reset]
+verify_jwt = true
+
+[functions.send-admin-email]
+verify_jwt = true
+
+[functions.business-resubmit]
+verify_jwt = true
+
+[functions.contractor-chat]
+verify_jwt = false
+
+[functions.sitemap]
+verify_jwt = false
+
+[functions.ping-search-engines]
+verify_jwt = false
+
+[functions.track-blog-view]
+verify_jwt = false
+
+[functions.generate-ad-audio]
+verify_jwt = false
+
+[functions.notify-business-claimed]
+verify_jwt = false
+
+[functions.inbound-email]
+verify_jwt = false
+
+[functions.send-communication-email]
+verify_jwt = true
+
+[functions.create-trial-checkout]
+verify_jwt = true
+
+[functions.send-trial-email]
+verify_jwt = false
+
+[functions.check-trial-reminders]
+verify_jwt = false
+
+[functions.fetch-gmail]
+verify_jwt = true
+
+[functions.enhance-staff-photo]
+verify_jwt = true
+
+[functions.portal-payment-reminder]
+verify_jwt = false
+
+[functions.project-booking-notification]
+verify_jwt = false
+
+[functions.project-status-notification]
+verify_jwt = false
+
+[functions.portal-invite]
+verify_jwt = true
+
+[functions.portal-accept-invitation]
+verify_jwt = false
+
+[functions.portal-invoice-action]
+verify_jwt = true
+
+[functions.generate-invoice-pdf]
+verify_jwt = true
+
+[functions.job-application-notify]
+verify_jwt = false
+
+[functions.send-notification]
+verify_jwt = false
+
+[functions.forward-to-contractor]
+verify_jwt = false
+
+[functions.forward-to-client]
+verify_jwt = false
